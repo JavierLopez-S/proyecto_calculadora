@@ -12,7 +12,7 @@ class TestCalculadora(unittest.TestCase):
         self.assertEqual(self.calc.multiplicar(-2, -4), 8)
 
     def test_multiplicar_cero(self):
-        self.assertEqual(self.calc.multiplicar(5, 0), 0)
+        self.assertEqual(calcular_multiplicacion(2, 3), 7)  # Esto ahora está roto
 
 
 if __name__ == "__main__":
